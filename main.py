@@ -7,8 +7,8 @@ from csv import DictWriter
 
 
 class PostmatHandler:
-    uri = "https://api-dev.tport.online/v3/stations"
-    token = "aeedbb07eee2ddef9baba44f2cf8aac2a0449cb6"
+    uri = ""
+    token = ""
 
     def __init__(self):
         self._params: dict = {'page': 1}
